@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_2.owl#"
-     xml:base="http://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_2.owl"
+<rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_all.owl#"
+     xml:base="http://www.ifomis.org/vdot/vdot_all.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,8 +11,8 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://raw.githubusercontent.com/IFOMIS/VDOT_EXT/master/VDOT_ALL_2.owl">
-        <owl:versionIRI rdf:resource="urn:absolute:3"/>
+    <owl:Ontology rdf:about="http://www.ifomis.org/vdot/vdot_all.owl">
+        <owl:versionIRI rdf:resource="urn:absolute:2"/>
     </owl:Ontology>
     
 
@@ -2923,6 +2923,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
         <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label>cholesterol</rdfs:label>
+        <rdfs:label xml:lang="en">cholesterol</rdfs:label>
     </owl:Class>
     
 
@@ -2944,6 +2945,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115 xml:lang="en">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from α-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/CHEBI_16670</obo:IAO_0000119>
         <rdfs:label xml:lang="en">peptide</rdfs:label>
     </owl:Class>
@@ -2972,6 +2975,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_16990</obo:IAO_0000412>
         <rdfs:label>bilirubin</rdfs:label>
+        <rdfs:label xml:lang="en">bilirubin</rdfs:label>
     </owl:Class>
     
 
@@ -3008,6 +3012,9 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">A triglyceride (TG, triacylglycerol, TAG, or triacylglyceride) is an ester derived from glycerol and three fatty acids (from tri- and glyceride). Triglycerides are the main constituents of body fat in humans and other animals, as well as vegetable fat. They are also present in the blood to enable the bidirectional transference of adipose fat and blood glucose from the liver, and are a major component of human skin oils.
+There are many different types of triglyceride, with the main division between saturated and unsaturated types.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Triglyceride</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">Triacylglycerol</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">Triglyzerid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">Triglyzeride</oboInOwl:hasSynonym>
@@ -3048,6 +3055,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22985">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label>calcium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -3057,6 +3065,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
+        <obo:IAO_0000115 xml:lang="en">The chloride ion /ˈklɔːraɪd/ is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents. Chloride salts such as sodium chloride are often very soluble in water.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Chloride</obo:IAO_0000119>
         <oboInOwl:hasSynonym>Chlorid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
         <rdfs:label>chloride salt</rdfs:label>
@@ -3230,6 +3240,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label>magnesium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -3268,6 +3279,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674"/>
         <rdfs:label xml:lang="de">potassium molecular entity</rdfs:label>
     </owl:Class>
     
@@ -3463,11 +3475,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+        <obo:IAO_0000115 xml:lang="en">A chain of ribonucleotides.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">RNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acids</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label xml:lang="en">RNA</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleic acid</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus:63231-63-0</rdfs:seeAlso>
     </owl:Class>
@@ -3482,6 +3497,18 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino-acid residue</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino-acid residue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115>Conjugated protein is a protein that contains a non-peptide component, usually in stoichiometric proportion.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_33837</obo:IAO_0000412>
+        <rdfs:label>conjugated protein</rdfs:label>
     </owl:Class>
     
 
@@ -3523,6 +3550,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <oboInOwl:hasSynonym>Calcium</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Kalzium</rdfs:label>
         <rdfs:label>elemental calcium</rdfs:label>
+        <rdfs:label xml:lang="en">elemental calcium</rdfs:label>
     </owl:Class>
     
 
@@ -3632,6 +3660,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582"/>
         <obo:IAO_0000115 xml:lang="en">Any molecular entity that contains carbon.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/CHEBI_50860</obo:IAO_0000119>
+        <rdfs:label>organic molecular entity</rdfs:label>
         <rdfs:label xml:lang="en">organic molecular entity</rdfs:label>
     </owl:Class>
     
@@ -3726,6 +3755,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 xml:lang="en">Ferritin is a universal intracellular protein that stores iron and releases it in a controlled fashion. The protein is produced by almost all living organisms, including algae, bacteria, higher plants, and animals. In humans, it acts as a buffer against iron deficiency and iron overload. Ferritin is found in most tissues as a cytosolic protein, but small amounts are secreted into the serum where it functions as an iron carrier. Plasma ferritin is also an indirect marker of the total amount of iron stored in the body, hence serum ferritin is used as a diagnostic test for iron-deficiency anemia.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Ferritin</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ferritin</rdfs:label>
     </owl:Class>
     
@@ -3961,6 +3992,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_81105"/>
+        <obo:IAO_0000115 xml:lang="en">Platelets, also called thrombocytes (from Greek θρόμβος, &quot;clot&quot; and κύτος, &quot;cell&quot;), are a component of blood whose function (along with the coagulation factors) is to react to bleeding from blood vessel injury by clumping, thereby initiating a blood clot. Platelets have no cell nucleus: they are fragments of cytoplasm that are derived from the megakaryocytes[2] of the bone marrow, and then enter the circulation. Circulating unactivated platelets are biconvex discoid (lens-shaped) structures, 2–3 µm in greatest diameter. Platelets are found only in mammals, whereas in other animals (e.g. birds, amphibians) thrombocytes circulate as intact mononuclear cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Platelet</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">Thrombozyten</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">blood platelet</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">thrombocyte</oboInOwl:hasSynonym>
@@ -3974,6 +4007,8 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma70340"/>
+        <obo:IAO_0000115 xml:lang="en">White blood cells (also called leukocytes or leucocytes and abbreviated as WBCs) are the cells of the immune system that are involved in protecting the body against both infectious disease and foreign invaders. All white blood cells are produced and derived from multipotent cells in the bone marrow known as hematopoietic stem cells. Leukocytes are found throughout the body, including the blood and lymphatic system.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/White_blood_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>White blood cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Leukozyt</rdfs:label>
         <rdfs:label>leukocyte</rdfs:label>
@@ -4011,6 +4046,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63368">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma72300"/>
+        <obo:IAO_0000115 xml:lang="en">Stem cells are biological cells that can differentiate into other types of cells and can divide to produce more of the same type of stem cells. They are found in multicellular organisms.
+
+In mammals, there are two broad types of stem cells: embryonic stem cells, which are isolated from the inner cell mass of blastocysts, and adult stem cells, which are found in various tissues. In adult organisms, stem cells and progenitor cells act as a repair system for the body, replenishing adult tissues. In a developing embryo, stem cells can differentiate into all the specialized cells—ectoderm, endoderm and mesoderm (see induced pluripotent stem cells)—but also maintain the normal turnover of regenerative organs, such as blood, skin, or intestinal tissues.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Stem_cell</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Stammzelle</rdfs:label>
         <rdfs:label xml:lang="en">stem cell</rdfs:label>
     </owl:Class>
@@ -33010,6 +33049,7 @@ PMID:12345</obo:IAO_0000112>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein coding gene</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label>protein_coding_gene</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein_coding_gene</rdfs:label>
     </owl:Class>
     
@@ -39401,6 +39441,10 @@ PMID:12345</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma0326142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63368"/>
+        <obo:IAO_0000115 xml:lang="en">Adult stem cells, also called somatic (from Greek σωματικóς, &quot;of the body&quot;) stem cells, are stem cells which maintain and repair the tissue in which they are found. They can be found in children, as well as adults.
+
+Pluripotent adult stem cells are rare and generally small in number, but they can be found in umbilical cord blood and other tissues. Bone marrow is a rich source of adult stem cells, which have been used in treating several conditions including liver cirrhosis, chronic limb ischemia and endstage heart failure. The quantity of bone marrow stem cells declines with age and is greater in males than females during reproductive years. Much adult stem cell research to date has aimed to characterize their potency and self-renewal capabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Stem_cell</obo:IAO_0000119>
         <rdfs:label>somatic stem cell</rdfs:label>
         <rdfs:label xml:lang="de">somatische Stammzelle</rdfs:label>
     </owl:Class>
@@ -39421,6 +39465,8 @@ PMID:12345</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma66785">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845"/>
+        <obo:IAO_0000115 xml:lang="en">Reticulocytes are immature red blood cells, typically composing about 1% of the red blood cells in the human body. In the process of erythropoiesis (red blood cell formation), reticulocytes develop and mature in the bone marrow and then circulate for about a day in the blood stream before developing into mature red blood cells. Like mature red blood cells, in mammals reticulocytes do not have a cell nucleus. They are called reticulocytes because of a reticular (mesh-like) network of ribosomal RNA that becomes visible under a microscope with certain stains such as new methylene blue and Romanowsky stain.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Reticulocyte</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">Polychromatophilic erythrocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Retikulozyt</rdfs:label>
         <rdfs:label xml:lang="en">reticulocyte</rdfs:label>
@@ -41117,6 +41163,9 @@ RAMR = (Observed Mortality Rate/Predicted Mortality Rate)* Overall (Weighted) Mo
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A patient is any recipient of health care services. The patient is most often ill or injured and in need of treatment by a physician, advanced practice registered nurse, physiotherapist, physician assistant, psychologist, dentist, podiatrist, veterinarian, or other health care provider.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/patient</obo:IAO_0000119>
+        <rdfs:comment xml:lang="de">Als Patient bzw. Patientin (aus lateinisch patiens, deutsch ‚geduldig‘, ‚aushaltend‘, ‚ertragend‘, adjektivisches 1. Partizip von pati, deutsch ‚erdulden‘, ‚leiden‘ wird ein Mensch bezeichnet, der ärztliche Dienstleistungen oder Dienstleistungen anderer Personen, die eine Heilbehandlung durchführen, in Anspruch nimmt. Dabei kann es sich um die Vorbeugung, Feststellung oder medizinische Behandlung von Krankheiten oder Folgen eines Unfalls handeln.</rdfs:comment>
         <rdfs:label>patient</rdfs:label>
     </owl:Class>
     
@@ -41330,6 +41379,7 @@ RAMR = (Observed Mortality Rate/Predicted Mortality Rate)* Overall (Weighted) Mo
     <!-- http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI_35134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33837"/>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_blood.owl#CHEBI:33837CHEBI_33837"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35134</obo:IAO_0000412>
         <rdfs:label>metalloprotein</rdfs:label>
@@ -41410,6 +41460,12 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Neutrophile Granulozyten, auch kurz Neutrophile genannt, sind spezialisierte Immunzellen der Wirbeltiere. Beim Menschen sind sie mit einem Anteil von 50–65 % die häufigsten weißen Blutkörperchen (Leukozyten). Sie sind Teil der angeborenen Immunabwehr und dienen der Identifizierung und Zerstörung von Mikroorganismen. Der Name nimmt auf die gute Anfärbbarkeit mit neutralen Farbstoffen Bezug („neutral liebend“) und ist eine Abgrenzung zu Eosinophilen und Basophilen Granulozyten.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Neutrophils (also known as neutrocytes) are the most abundant type of granulocytes and the most abundant (40% to 70%) type of white blood cells in most mammals. They form an essential part of the innate immune system. Their functions vary in different animals.
+
+They are formed from stem cells in the bone marrow and differentiated into subpopulations of neutrophil-killers and neutrophil-cagers. They are short-lived and highly motile, or mobile, as they can enter parts of tissue where other cells/molecules cannot. Neutrophils may be subdivided into segmented neutrophils and banded neutrophils (or bands). They form part of the polymorphonuclear cells family (PMNs) together with basophils and eosinophils</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Neutrophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Neutrophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62860</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Heterophile leucocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Neutrophil leucocyte</oboInOwl:hasSynonym>
@@ -41429,6 +41485,10 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Eosinophile Granulozyten – kurz auch Eosinophile oder &quot;EOS&quot; genannt – gehören zu den Leukozyten. Sie machen etwa 1–5 % der Leukozyten im Differentialblutbild aus und sind an der zellulären Immunabwehr beteiligt. Ihren Namen beziehen sie vom Farbstoff Eosin, mit dem sie angefärbt werden können.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Eosinophils, sometimes called eosinophiles or, less commonly, acidophils, are a variety of white blood cells and one of the immune system components responsible for combating multicellular parasites and certain infections in vertebrates. Along with mast cells and basophils, they also control mechanisms associated with allergy and asthma. They are granulocytes that develop during hematopoiesis in the bone marrow before migrating into blood, after which they are terminally differentiated and do not multiply</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Eosinophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Eosinophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62861</obo:IAO_0000412>
         <oboInOwl:hasSynonym>EOS</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Eosinophil leukocyte</oboInOwl:hasSynonym>
@@ -41444,6 +41504,14 @@ COMe:PRX000257</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_blood.owl#fma62862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+        <obo:IAO_0000115 xml:lang="de">Basophile Granulozyten sind eine Population von Leukozyten (weißen Blutkörperchen) im Blut. Sie besitzen intrazelluläre Granula, die unter anderem Histamin, Serotonin und Heparin enthalten. Im Differentialblutbild machen sie einen geringen Anteil von 0–1 % aus. Wachstumsfaktoren für die Basophilen sind unter anderem Interleukin-3, Interleukin-5 und GM-CSF. Es gibt Hinweise für eine wechselseitige Kontrolle bei der Reifung zwischen Basophilen und Eosinophilen. Beispielsweise unterdrückt TGF-beta (ein transformierender Wachstumsfaktor) in Gegenwart von Interleukin-3 die Differenzierung von Eosinophilen und fördert die der Basophilen. Sie besitzen einen Rezeptor für Immunglobulin E (IgE), weshalb man annimmt, dass sie eine Rolle bei der Immunabwehr des Wirts gegen Parasiten spielen.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Basophils are a type of white blood cells. Basophils are the least common of the granulocytes, representing about 0.5 to 1% of circulating white blood cells. However, they are the largest type of granulocyte. They are responsible for inflammatory reactions during immune response, as well as in the formation of acute and chronic allergic diseases, including anaphylaxis, asthma, atopic dermatitis and hay fever. They can perform phagocytosis (cell eating), produce histamine and serotonin that induce inflammation, and heparin that prevents blood clotting, although there are less than that found in Mast cell granules. It used to be thought that basophils that have migrated from blood into their resident tissues (connective tissue) are known as mast cells, but this is no longer thought to be the case.
+
+Basophils were discovered in 1879 by German physician Paul Ehrlich, who one year earlier had found a cell type present in tissues that he termed mastzellen (now mast cells). Ehrlich received the 1908 Nobel Prize in Physiology or Medicine for his discoveries.
+
+The name comes from the fact that these leukocytes are basophilic, i.e., they are susceptible to staining by basic dyes, as shown in the picture.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Basophiler_Granulozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Basophil</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62862</obo:IAO_0000412>
         <oboInOwl:hasSynonym>BASO</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Basophil granulocyte</oboInOwl:hasSynonym>
@@ -42162,6 +42230,10 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62863">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000115 xml:lang="en">A lymphocyte is one of the subtypes of white blood cell in a vertebrate&apos;s immune system. Lymphocytes include natural killer cells (which function in cell-mediated, cytotoxic innate immunity), T cells (for cell-mediated, cytotoxic adaptive immunity), and B cells (for humoral, antibody-driven adaptive immunity). They are the main type of cell found in lymph, which prompted the name &quot;lymphocyte&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="de">Lymphozyten sind zelluläre Bestandteile des Blutes. Sie umfassen die B-Zellen, T-Zellen und die natürlichen Killerzellen und gehören zu den sogenannten „weißen Blutkörperchen“ (Leukozyten). Bei Erwachsenen stellen die Lymphozyten etwa 25 bis 40 Prozent[1] der Leukozyten im peripheren Blut, also außerhalb der blutbildenden Organe, dar.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Lymphozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Lymphocyte</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62863</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="de">Lymph</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Lymphozyt</rdfs:label>
@@ -42174,6 +42246,10 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000115 xml:lang="en">Monocytes are a type of leukocyte, or white blood cell. They are the largest type of leukocyte and can differentiate into macrophages and myeloid lineage dendritic cells. As a part of the vertebrate innate immune system monocytes also influence the process of adaptive immunity. There are at least three subclasses of monocytes in human blood based on their phenotypic receptors.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="de">Monozyten, auch Monocyten (von altgriechisch μόνος monos, deutsch ‚allein, einzig‘ und altgriechisch κύτος cýtos, deutsch ‚Höhlung, Gefäß, Hülle‘), sind im Blut zirkulierende Zellen des Immunsystems und die Vorläufer der u. a. in den Geweben lokalisierten Makrophagen sowie eines Teils der Dendritischen Zellen. Ihre Aufgabe ist die Zerstörung körperfremder Strukturen durch Phagozytose und die Aktivierung der erworbenen Immunabwehr mittels Antigenpräsentation. Der wichtigste Speicherort für Monozyten ist die Milz. Die Monozyten gehören sowohl zum spezifischen als auch zum unspezifischen Abwehrsystem.[1] Zirkulierende Monozyten haben eine Lebensdauer von 1 bis 3 Tagen, bevor sie ausdifferenzieren und in die Gewebe einwandern. Dort leben sie als Makrophagen für mehrere Wochen bis Monate weiter.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Monozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Monocyte</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.org/sig/ont/fma/fma62864</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">Monozyten</oboInOwl:hasSynonym>
@@ -42212,6 +42288,13 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001555"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A blood cell, also called a haematopoietic cell, hemocyte, or hematocyte, is a cell produced through hematopoiesis and found mainly in the blood. Major types of blood cells include;
+
+Red blood cells (erythrocytes)
+White blood cells (leukocytes)
+Platelets (thrombocytes)
+Together, these three kinds of blood cells add up to a total 45% of the blood tissue by volume, with the remaining 55% of the volume composed of plasma, the liquid component of blood.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Blood_cell</obo:IAO_0000119>
         <obo:IAO_0000412>ttp://purl.org/sig/ont/fma/fma70336</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="de">Blutzelle</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>Haemal cell</oboInOwl:hasSynonym>
@@ -42336,6 +42419,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Organ donor is a person who allows an organ of theirs to be removed, legally, either by consent while the donor is alive or after death with the assent of the next of kin.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Spender</rdfs:label>
         <rdfs:label xml:lang="en">donor</rdfs:label>
     </owl:Class>
@@ -42547,6 +42632,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0063"/>
+        <obo:IAO_0000115 xml:lang="de">Alter eines Patienten am Tag der Stammzellentransplantation.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">IFOMIS</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Alter bei Stammzellentransplantation</rdfs:label>
         <rdfs:label xml:lang="en">age at stem cell transplantation</rdfs:label>
     </owl:Class>
@@ -43138,6 +43225,24 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00028 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">This is a data set with data about a donor of a transplant.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:comment>definition is under review</rdfs:comment>
+        <rdfs:label xml:lang="de">Spender-Datensatz</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#http://purl.obolibrary.org/obo/IAO_0000302 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#http://purl.obolibrary.org/obo/IAO_0000302">
@@ -43331,10 +43436,181 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000001 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_051"/>
+        <rdfs:label xml:lang="de">Datum der Probeneinreichung</rdfs:label>
+        <rdfs:label xml:lang="en">sample submission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_gene_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_033"/>
+        <rdfs:label>sample title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, A-1 alpha chain|MHC class I antigen HLA-A heavy chain|antigen presenting molecule|leukocyte antigen class I-A</obo:IAO_0000115>
+        <rdfs:label>HLA-A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000003 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000003">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002"/>
+        <rdfs:label>HLA-A female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000004 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000004">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000002"/>
+        <rdfs:label>HLA-A male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, B alpha chain|MHC Class I HLA heavy chain|MHC HLA-B cell surface glycoprotein|MHC HLA-B transmembrane glycoprotein|MHC class I antigen GN00104|MHC class I antigen HLA-B heavy chain|MHC class I antigen SHCHA|leukocyte antigen class I-B|lymphocyte antigen</obo:IAO_0000115>
+        <rdfs:label>HLA-B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000006 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000006">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005"/>
+        <rdfs:label>HLA-B female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000007 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000007">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000005"/>
+        <rdfs:label>HLA-B male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class I histocompatibility antigen, C alpha chain|HLA class I histocompatibility antigen, Cw-1 alpha chain|MHC class I antigen heavy chain HLA-C|human leukocyte antigen-C alpha chain|major histocompatibility antigen HLA-C</obo:IAO_0000115>
+        <rdfs:label>HLA-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000009 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000009">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008"/>
+        <rdfs:label>HLA-C female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000010 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000010">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000008"/>
+        <rdfs:label>HLA-C male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
+        <rdfs:label>HLA-DRB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000012">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011"/>
+        <rdfs:label>HLA-DRB1 female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000013 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000013">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000011"/>
+        <rdfs:label>HLA-DRB1 male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_gene.owl#vdot_gene_00000001"/>
+        <obo:IAO_0000115>Other designations: HLA class II histocompatibility antigen, DQ beta 1 chain|MHC DQ beta|MHC class II DQ beta chain|MHC class II HLA-DQ beta glycoprotein|MHC class II antigen DQB1|MHC class II antigen HLA-DQ-beta-1|MHC class2 antigen|lymphocyte antigen</obo:IAO_0000115>
+        <rdfs:label>HLA-DQB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014"/>
+        <rdfs:label>HLA-DQB1 female allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000014"/>
+        <rdfs:label>HLA-DQB1 male allele group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_hla.owl#vdot_hla_00000017">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C68707"/>
+        <obo:IAO_0000115>Human leukocyte antigen (HLA) typing, utilising the sequence-specific oligonucleotide (SSO) and sequence-specific primer (SSP) technologies, has been in routine use in many tissue typing laboratories worldwide for more than 20 years since the development of the polymerase chain reaction. Both methods are very useful for clinical and research purposes and can provide generic (low resolution) to allelic (high resolution) typing results.</obo:IAO_0000115>
+        <obo:IAO_0000119>IFOMIS</obo:IAO_0000119>
+        <rdfs:label>PCR-SSP hla matching</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C12537 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <obo:IAO_0000115 xml:lang="en">Th1 helper cells are the host immunity effectors against intracellular bacteria and protozoa. They are triggered by IL-12 and their effector cytokines are IFN-γ and IL-2. The main effector cells of Th1 immunity are macrophages as well as CD8 T cells, IgG B cells, and IFN-γ CD4 T cells. The key Th1 transcription factors are STAT4 and T-bet. IFN-γ secreted by CD4 T cells can activate macrophages to phagocytose and digest intracellular bacteria and protozoa. In addition, IFN-γ can activate iNOS to produce NOx free radicals to directly kill intracellular bacteria and protozoa. Th1 overactivation against autoantigens will cause Type 4 delayed-type hypersensitivity. Tuberculin reaction or Type 1 diabetes belong to this category of autoimmunity</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD4+ T Lymphocytes</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T4 Cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">CD4-positive T-lymphocyte</rdfs:label>
@@ -43346,6 +43622,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12542">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
+        <obo:IAO_0000115 xml:lang="en">Th2 helper cells are the host immunity effectors against extracellular parasites including helminths. They are triggered by IL-4 and IL-2, and their effector cytokines are IL-4, IL-5, IL-9, IL-10, IL-13 and IL-25. The main effector cells are eosinophils, basophils, and mast cells as well as B cells, and IL-4/IL-5 CD4 T cells. The key Th2 transcription factors are STAT6 and GATA3.[10] IL-4 is the positive feedback cytokine for Th2 cells differentiation. Besides, IL-4 stimulates B-cells to produce IgE antibodies, which in turn stimulate mast cells to release histamine, serotonin, and leukotriene to cause broncho-constriction, intestinal peristalsis, gastric fluid acidification to expel helminths. IL-5 from CD4 T cells will activate eosinophils to attack helminths. IL-10 suppresses Th1 cells differentiation and function of dendritic cells. Th2 overactivation against autoantigen will cause Type1 IgE-mediated allergy and hypersensitivity. Allergic rhinitis, atopic dermatitis, and asthma belong to this category of autoimmunity. In addition to expressing different cytokines, Th2 cells also differ from Th1 cells in their cell surface glycans (oligosaccharides), which makes them less susceptible to some inducers of cell death</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
@@ -43679,6 +43957,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A process in which blood or tissue samples are analyzed to determine their human leukocyte antigen (HLA) profiles so that transplant materials can be transfered into a patient with the same or similar profile.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
@@ -43727,6 +44011,17 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI_33674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <rdfs:label>s-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#fma62845 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62845">
@@ -43744,7 +44039,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62869">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <obo:IAO_0000115 xml:lang="en">B cells, also known as B lymphocytes, are a type of white blood cell of the lymphocyte subtype. They function in the humoral immunity component of the adaptive immune system by secreting antibodies.[1] Additionally, B cells present antigen (they are also classified as professional antigen-presenting cells (APCs)) and secrete cytokines. In mammals, B cells mature in the bone marrow, which is at the core of most bones. In birds, B cells mature in the bursa of Fabricius, a lymphoid organ. (The &quot;B&quot; from B cells comes from the name of this organ, where it was first discovered by Chang and Glick,[2] and not from bone marrow as commonly believed.)
+
+B cells, unlike the other two classes of lymphocytes, T cells and natural killer cells, express B cell receptors (BCRs) on their cell membrane.[1] BCRs allow the B cell to bind to a specific antigen, against which it will initiate an antibody response</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/B_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">B-cell</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
         <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
@@ -43756,6 +44056,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
+        <obo:IAO_0000115 xml:lang="en">A T cell, or T lymphocyte, is a type of lymphocyte (a subtype of white blood cell) that plays a central role in cell-mediated immunity. T cells can be distinguished from other lymphocytes, such as B cells and natural killer cells, by the presence of a T-cell receptor on the cell surface. They are called T cells because they mature in the thymus from thymocytes (although some also mature in the tonsils). The several subsets of T cells each have a distinct function. The majority of human T cells rearrange their alpha and beta chains on the cell receptor and are termed alpha beta T cells (αβ T cells) and are part of the adaptive immune system. Specialized gamma delta T cells, (a small minority of T cells in the human body, more frequent in ruminants), have invariant T-cell receptors with limited diversity, that can effectively present antigens to other T cells and are considered to be part of the innate immune system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="de">T-Lymphozyten oder kurz T-Zellen bilden eine Gruppe von weißen Blutzellen, die der Immunabwehr dient. T-Lymphozyten stellen gemeinsam mit den B-Lymphozyten die erworbene (adaptive) Immunantwort dar. Das T im Namen steht für den Thymus, in dem die Zellen ausreifen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/T-Lymphozyt</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_cell</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">T-cell</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">T-Lymphozyt</rdfs:label>
         <rdfs:label>T-lymphocyte</rdfs:label>
     </owl:Class>
     
@@ -43765,9 +44071,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma63147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62855"/>
+        <obo:IAO_0000115 xml:lang="en">Natural killer cells or NK cells are a type of cytotoxic lymphocyte critical to the innate immune system. The role NK cells play is analogous to that of cytotoxic T cells in the vertebrate adaptive immune response. NK cells provide rapid responses to viral-infected cells, acting at around 3 days after infection, and respond to tumor formation. Typically, immune cells detect major histocompatibility complex (MHC) presented on infected cell surfaces, triggering cytokine release, causing lysis or apoptosis. NK cells are unique, however, as they have the ability to recognize stressed cells in the absence of antibodies and MHC, allowing for a much faster immune reaction. They were named &quot;natural killers&quot; because of the initial notion that they do not require activation to kill cells that are missing &quot;self&quot; markers of MHC class 1. This role is especially important because harmful cells that are missing MHC I markers cannot be detected and destroyed by other immune cells, such as T lymphocyte cells.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Natural_killer_cell</obo:IAO_0000119>
         <obo:IAO_0000412 xml:lang="de">http://purl.obolibrary.org/obo/FMA_63147</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="de">NK cell</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">natural killer cell</rdfs:label>
+        <rdfs:label xml:lang="en">natural killer cell</rdfs:label>
     </owl:Class>
     
 
@@ -43776,6 +44085,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870"/>
+        <obo:IAO_0000115 xml:lang="en">The T helper cells (Th cells) are a type of T cell that play an important role in the immune system, particularly in the adaptive immune system. They help the activity of other immune cells by releasing T cell cytokines. These cells help suppress or regulate immune responses. They are essential in B cell antibody class switching, in the activation and growth of cytotoxic T cells, and in maximizing bactericidal activity of phagocytes such as macrophages.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>Helper T-lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>T-Helferzellen</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">T-Lymphozyten</oboInOwl:hasSynonym>
@@ -43788,6 +44099,8 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572"/>
+        <obo:IAO_0000115 xml:lang="en">Proliferating helper T cells that develop into effector T cells differentiate into two major subtypes of cells known as Th1 and Th2 cells (also known as Type 1 and Type 2 helper T cells, respectively).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <rdfs:label xml:lang="de">T-helper cell type 1</rdfs:label>
     </owl:Class>
     
@@ -43839,7 +44152,10 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000005">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
+        <obo:IAO_0000115 xml:lang="en">Bei der Hydroxybutyrat-Dehydrogenase (HBDH) handelt es sich um ein Enzym, bei verschiedenen Erkrankungen erhöht im Blutserum vorliegen kann. Das HBDH besteht aus den beiden Enzymen LDH1 und LDH2. Es kommt im Herzmuskel sowie in den Nieren und den Erythrozyten (rote Blutkörperchen) vor.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">http://www.gesundheits-lexikon.com/Labormedizin-Labordiagnostik/Herzdiagnostik/Hydroxybutyrat-Dehydrogenase-HBDH-.html</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="en">hbdh</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Hydroxybutyrat-Dehydrogenase</rdfs:label>
         <rdfs:label xml:lang="en">hydroxybutyrate dehydrogenase</rdfs:label>
     </owl:Class>
     
@@ -43876,6 +44192,19 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
         <obo:IAO_0000119 xml:lang="de">https://www.sysmex.ch/produkte/diagnostik/haematologie/analysensysteme/xn-l-serie/xn-l-klinischer-nutzen.html</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">RPI</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Retikulozytenproduktionsindex (sysmex)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000009 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 xml:lang="en">A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands. Albumin is the main protein in blood plasma. Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C214</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Albumin</rdfs:label>
+        <rdfs:label xml:lang="en">albumin</rdfs:label>
     </owl:Class>
     
 
@@ -46382,6 +46711,12 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010039">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0010039"/>
     </owl:NamedIndividual>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
     <rdf:Description>
         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
