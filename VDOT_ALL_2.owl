@@ -2906,7 +2906,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEEBI</obo:IAO_0000119>
-        <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
         <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label>cholesterol</rdfs:label>
         <rdfs:label xml:lang="en">cholesterol</rdfs:label>
@@ -32244,6 +32243,12 @@ Pluripotent adult stem cells are rare and generally small in number, but they ca
 
     <owl:Class rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_017">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">lymphocyte, fibroblast, erythrocyte, neuron.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Anatomical structure which has as its boundary the external surface of a maximally connected plasma membrane. </obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://sig.uw.edu/fma#Cell</obo:IAO_0000119>
@@ -33515,6 +33520,12 @@ RAMR = (Observed Mortality Rate/Predicted Mortality Rate)* Overall (Weighted) Mo
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#BFO_0000159"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A patient is any recipient of health care services. The patient is most often ill or injured and in need of treatment by a physician, advanced practice registered nurse, physiotherapist, physician assistant, psychologist, dentist, podiatrist, veterinarian, or other health care provider.</obo:IAO_0000115>
@@ -35849,6 +35860,7 @@ Together, these three kinds of blood cells add up to a total 45% of the blood ti
         <obo:IAO_0000115>A protein whose activities affect or play a role in immune system functions.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">immonuprotein</rdfs:label>
         <rdfs:label>immunoprotein</rdfs:label>
     </owl:Class>
     
@@ -36034,6 +36046,7 @@ Together, these three kinds of blood cells add up to a total 45% of the blood ti
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
         <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
         <rdfs:label>immunoglobulin M</rdfs:label>
+        <rdfs:label xml:lang="de">immunoglobulin M</rdfs:label>
     </owl:Class>
     
 
