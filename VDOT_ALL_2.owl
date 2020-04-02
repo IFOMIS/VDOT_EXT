@@ -1420,6 +1420,20 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- &lt;http://purl.obolibrary.org/obo/GO_0061365&gt; -->
+
+    <owl:Class rdf:about="&lt;http://purl.obolibrary.org/obo/GO_0061365&gt;">
+        <rdfs:subClassOf rdf:resource="&lt;http://purl.obolibrary.org/obo/UO_1000244&gt;"/>
+    </owl:Class>
+    
+
+
+    <!-- &lt;http://purl.obolibrary.org/obo/UO_1000244&gt; -->
+
+    <owl:Class rdf:about="&lt;http://purl.obolibrary.org/obo/UO_1000244&gt;"/>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62582 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62582">
