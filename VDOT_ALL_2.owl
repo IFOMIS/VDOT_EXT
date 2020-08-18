@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_all#"
      xml:base="http://www.ifomis.org/vdot/vdot_all"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -42,9 +43,51 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
     
 
 
@@ -54,21 +97,27 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
@@ -83,35 +132,44 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_1903003 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36219 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1903003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>Any process that activates or increases the frequency, rate or extent of protein deubiquitination.</obo:IAO_0000115>
-        <oboInOwl:created_by>bf</oboInOwl:created_by>
-        <oboInOwl:creation_date>2014-05-12T15:39:10Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym>positive regulation of deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>positive regulation of protein deubiquitinylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>positive regulation of protein deubiquitylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up regulation of deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up regulation of protein deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up regulation of protein deubiquitinylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up regulation of protein deubiquitylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up-regulation of deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up-regulation of protein deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up-regulation of protein deubiquitinylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>up-regulation of protein deubiquitylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>upregulation of deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>upregulation of protein deubiquitination</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>upregulation of protein deubiquitinylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>upregulation of protein deubiquitylation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>activation of deubiquitination</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>activation of protein deubiquitination</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>activation of protein deubiquitinylation</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>activation of protein deubiquitylation</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:1903003</oboInOwl:id>
-        <rdfs:label>positive regulation of protein deubiquitination</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000151"/>
+        <obo:IAO_0000115>The alpha-anomer of lactose.</obo:IAO_0000115>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C12H22O11</chebi:formula>
+        <chebi:inchi>InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5+,6+,7-,8-,9-,10-,11+,12+/m1/s1</chebi:inchi>
+        <chebi:inchikey>GUBGYTABKSRVRQ-XLOQQCSPSA-N</chebi:inchikey>
+        <chebi:mass>342.29648</chebi:mass>
+        <chebi:monoisotopicmass>342.11621</chebi:monoisotopicmass>
+        <chebi:smiles>OC[C@H]1O[C@@H](O[C@@H]2[C@@H](CO)O[C@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@H]1O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:35461</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:43627</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:6353</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:90842</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:14641-93-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB04465</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:1535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GlyTouCan:G88362QR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:LACTOSE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:LBT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2432147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:90842</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>alpha-Lactose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alpha-lactose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>beta-D-galactopyranosyl-(1-&gt;4)-alpha-D-glucopyranose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1-beta-D-Galactopyranosyl-4-alpha-D-glucopyranose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>4-O-beta-D-galactopyranosyl-alpha-D-glucopyranose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Anhydrous lactose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LACTOSE</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Lactose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Milk sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-D-Galp-(1-&gt;4)-alpha-D-Glcp</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36219</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+        <rdfs:label>alpha-lactose</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
